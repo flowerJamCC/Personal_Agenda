@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Gruppo' ;
+  
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 70px;
+  /* margin-right: 20px ; */
+  padding: 20px;
+  padding-left: 35px;
+}
+
+#main-input{
+  border: 0.5px solid blue;
+  border-radius: 5px;
+  width: 75%;
+  height: 30px;
+  padding-left: 10px;
+  color: blue;
+  opacity: 0.7;
+  outline: blue;
+  font-size: 17px;
+}
+
+label{
+font-size: large;
+/* color: blue; */
+font-family: 'Cinzel';
+}
+
+hr{
+  background-color: blue;
+  height: 1px;
+  
+}
